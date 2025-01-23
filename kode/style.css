@@ -1,1 +1,23 @@
-/*  */
+.body{
+    
+background-image: url("bakrunn.jpg");
+
+
+}
+
+
+
+
+.utleid{
+    padding-left: 10px;
+    
+}
+
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+
+  .leggtil{
+    padding-top: 10px;
+  }

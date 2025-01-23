@@ -1,11 +1,44 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lagersystem</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     
+    <h1>Lagersystem</h1>
+    <table id="my_table">
+        <tr>
+          <th>Navn</th>
+          <th>Tilgjengelighet</th>
+          <th>handlinger</th>
+        </tr>
+        <tr>
+            
+          <td>kamera</td>
+          <td>tilgjengelig</td>
+          <td><button>slett</button></td>
+        </tr>
+        <tr>
+          <td>Mikrofon</td>
+          <td class="utleid"> utleid</td>
+          <td><button>slett</button></td>
+        </tr>
+
+
+        <tr>
+          <td>Stativ</td>
+          <td class="utleid"> utleid</td>
+          <td><button>slett</button></td>
+        </tr>
+      </table>
+      <div class="leggtil">
+      <button>legg til utstyr</button>
+      <input type="text" id="textinput" placeholder="Skriv navn på utstyr..">
+      <script src="./script.js"></script>
+    </div>
 </body>
 </html>
